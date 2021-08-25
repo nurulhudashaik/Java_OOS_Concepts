@@ -1,11 +1,9 @@
 package com.nurcompanypackage;
 
-import jdk.internal.dynalink.beans.StaticClass;
-
 public class Calc {
+    static int age = 30;
     //Static and non-static variables
     String name = "TestName";
-    static int age = 30;
 
     //static method
     public static void main(String[] args) {
@@ -17,6 +15,12 @@ public class Calc {
         System.out.println(age);
         System.out.println(Calc.age);
     }
+
+    //static method
+    public static void sum1() {
+        System.out.println("static method");
+    }
+
     //non-static method
     public void sum() {
         int num1 = 10;
@@ -31,10 +35,5 @@ public class Calc {
         int add1 = num11 + num22;
         return add1;
         //System.out.println(add1);
-    }
-
-    //static method
-    public static void sum1(){
-        System.out.println("static method");
     }
 }

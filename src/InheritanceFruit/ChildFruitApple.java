@@ -1,16 +1,16 @@
 package InheritanceFruit;
 
-public class ChildFruitApple extends ParentFruitClass{
+public class ChildFruitApple extends ParentFruitClass {
 
-    public void Redapple(){
+    public void Redapple() {
         System.out.println("Childfruitapple----red color");
     }
 
-    public void Greenapple(){
+    public void Greenapple() {
         System.out.println("Childfruitapple----Green color");
     }
 
-    public void sweet(){
+    public void sweet() {
         System.out.println("ChildFruitClass----Sweet");
 
     }

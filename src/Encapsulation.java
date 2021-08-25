@@ -10,7 +10,7 @@ public class Encapsulation {
         emp.setEmpSsn(522101);
         emp.setEmpName("Reshma");
         emp.setEmpAge(25);
-        System.out.println("Employee details are:" +emp.getEmpName() + "\n" +emp.getEmpSsn() + "\n" +emp.getEmpAge());
+        System.out.println("Employee details are:" + emp.getEmpName() + "\n" + emp.getEmpSsn() + "\n" + emp.getEmpAge());
     }
 
     //2.set getter and setter methods

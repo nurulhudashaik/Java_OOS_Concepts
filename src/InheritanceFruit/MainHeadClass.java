@@ -2,7 +2,7 @@ package InheritanceFruit;
 
 public class MainHeadClass {
 
-    public static void main (String args []) {
+    public static void main(String args[]) {
         ParentFruitClass p = new ParentFruitClass();
         p.sweet();
         p.tangy();
@@ -15,7 +15,7 @@ public class MainHeadClass {
         c.sweet();
         c.round();
 
-        ParentFruitClass p1=new ChildFruitApple();
+        ParentFruitClass p1 = new ChildFruitApple();
         p1.round();
         p1.tangy();
         p1.round();

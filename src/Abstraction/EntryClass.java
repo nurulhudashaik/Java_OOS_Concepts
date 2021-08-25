@@ -11,7 +11,7 @@ public class EntryClass {
         c.multiply();
         c.CalcUI();
 
-        AbstractClass a =new CalculationClass();
+        AbstractClass a = new CalculationClass();
         a.add();
         a.multiply();
         a.CalcUI();
